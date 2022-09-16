@@ -1,0 +1,18 @@
+###
+POST http://localhost:8081/books
+Content-Type: application/json
+
+{
+  "title": "House of cards",
+  "author": null,
+  "description": "House of Cards is a political thriller novel by British author Michael Dobbs."
+}
+
+###
+GET http://localhost:8081/books
+
+###
+GET http://localhost:8081/books/getByAuthor
+
+###
+GET http://localhost:8081/books/find-matched/a
