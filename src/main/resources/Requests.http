@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
   "title": "House of cards",
-  "author": null,
+  "author": "Michael Dobbs",
   "description": "House of Cards is a political thriller novel by British author Michael Dobbs."
 }
 
