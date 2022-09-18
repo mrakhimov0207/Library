@@ -2,8 +2,8 @@
 Library project with many manipulation cases.
 
 
-Project uses Postgresql database and it's mandatory to use Postgresql with "postgres" db name, "postgres" username and "2002" password or adapt these parameters 
-for your convenience using [application.properties](src\main\resources\application.properties) file. If you don't have already "books" table on db, to create it automatically, change the "spring.jpa.hibernate.ddl-auto" value to "create". Then you can change it to "update" again. 
+Project uses Postgresql database and it's mandatory to use Postgresql with 'postgres' db name, 'postgres' username and '2002' password or adapt these parameters 
+for your convenience using [application.properties](src\main\resources\application.properties) file. If you don't have already 'books' table on db, to create it automatically, change the 'spring.jpa.hibernate.ddl-auto' value to 'create'. Then you can change it to 'update' again. 
 
 
 All of the books in 'findAuthorsWithMatchCount' method in [LibraryServiceImpl](src/main/java/com/example/library/Services/LibraryServiceImpl.java) have been fetched from database for demonstrating the Java Stream API functions. 
